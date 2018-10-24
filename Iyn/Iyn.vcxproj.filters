@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Clustering">
+      <UniqueIdentifier>{5be54c6b-d699-46fb-9f3a-49712e659bdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Features">
+      <UniqueIdentifier>{6ff27dff-3877-4e56-a52e-796123d38688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Clustering">
+      <UniqueIdentifier>{ae209a00-9812-43a2-a9ff-9d464c5598aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features">
+      <UniqueIdentifier>{633af917-a18d-4e7d-b02b-8dc6a38103f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Recognition">
+      <UniqueIdentifier>{bfce5926-80c9-49d4-bed7-96c53bf144b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Recognition">
+      <UniqueIdentifier>{bfbe8a53-fb49-4996-9c35-cbd18e1c6471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Description\Affichage.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Description\caracteristique.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Description\descripteur.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Description\fctComp.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Description\image.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Description\pretraitement.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Clustering\cmeans.cpp">
+      <Filter>Source Files\Clustering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Clustering\preprocessing.cpp">
+      <Filter>Source Files\Clustering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Clustering\utility.cpp">
+      <Filter>Source Files\Clustering</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Clustering\matching.cpp">
+      <Filter>Source Files\Clustering</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Recognition\recognition.cpp">
+      <Filter>Source Files\Recognition</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Description\image.h">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Clustering\clusterLib.h">
+      <Filter>Header Files\Clustering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Clustering\IynGlobal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Recognition\recognitionLib.h">
+      <Filter>Header Files\Recognition</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{de009f87-77a6-4bed-a3a5-97b46564e15b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{bc3b64d0-2a73-4b6c-9423-7ae9cf3bc17c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\global_header.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\contoursLib.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\graphmatching.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphpreprocessing.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\polarcoordinates.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\preprocessing.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\characteristics.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmeans.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exports.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphcreation.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="import.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
